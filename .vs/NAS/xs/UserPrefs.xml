@@ -1,0 +1,58 @@
+﻿<Properties StartupConfiguration="{8D0DB36E-BBB0-7F33-4866-974E9144A8D0}|">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FirstPersonMovement.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Unified Raycast.cs" />
+      <File FileName="Assets/Add-Ons/DialogueEditor/Assets/Scripts/Editor/DialogueEditorUtil.cs" />
+      <File FileName="Assets/Add-Ons/DialogueEditor/Assets/Scripts/UI/UIConversationButton.cs" />
+      <File FileName="Assets/Add-Ons/DialogueEditor/Assets/Scripts/UI/ConversationManager.cs" />
+      <File FileName="Assets/Scripts/MainMenu.cs" />
+      <File FileName="Assets/Scripts/Components/Crouch.cs" />
+      <File FileName="Assets/Scripts/Components/FirstPersonAudio.cs" />
+      <File FileName="Assets/Scripts/FirstPersonMovement.cs" Line="82" Column="1" />
+      <File FileName="Assets/Scripts/letter.cs" />
+      <File FileName="Assets/Scripts/interaction.cs" />
+      <File FileName="Assets/Scripts/PauseSystem.cs" />
+      <File FileName="Assets/Scripts/DoorController.cs" />
+      <File FileName="Assets/Scripts/FirstPersonLook.cs" />
+      <File FileName="Assets/Add-Ons/DialogueEditor/Assets/Scripts/Editor/DialogueEditorNode.cs" />
+      <File FileName="Assets/Scripts/Components/GroundCheck.cs" />
+      <File FileName="Assets/Scripts/DoorController2.cs" />
+      <File FileName="Assets/Scripts/LevelLoader.cs" />
+      <File FileName="Assets/Scripts/Components/Zoom.cs" />
+      <File FileName="Assets/Scripts/Components/Jump.cs" />
+      <File FileName="Assets/Scripts/monolouge.cs" />
+      <File FileName="Assets/Scripts/door.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NAS" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Add-Ons" expanded="True">
+                <Node name="DialogueEditor" expanded="True">
+                  <Node name="Assets" expanded="True">
+                    <Node name="Scripts" expanded="True">
+                      <Node name="Editor" expanded="True" />
+                      <Node name="UI" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="Components" expanded="True" />
+                <Node name="FirstPersonMovement.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8b0feec4-fcc9-402b-8ee8-c220356088c4" />
+</Properties>
