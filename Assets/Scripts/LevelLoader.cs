@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -13,13 +12,16 @@ public class LevelLoader : MonoBehaviour
         StartCoroutine(Loadlevel(SceneManager.GetActiveScene().buildIndex + 1)); // Mulai coroutine Loadlevel. pindah ke scene dengan cara mendapatkan build index scene saat ini lalu ditambah 1
     }
 
-    
+    public void LoadLevel(int levelIndex)
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(levelIndex);
+    }
 
     IEnumerator Loadlevel(int levelindex) // gun
     {
         transition.SetTrigger("Start");
 
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(transitionTime);
 
         SceneManager.LoadScene(levelindex);
         

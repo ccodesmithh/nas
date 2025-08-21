@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UnifiedRaycast : MonoBehaviour
 {
@@ -22,6 +23,8 @@ public class UnifiedRaycast : MonoBehaviour
     public Image crosshair; // Referensi ke UI crosshair
     public GameObject interactionText; // Referensi ke teks interaksi
 
+    public LevelLoader levelLoader;
+
     private bool isCrosshairActive; // Apakah crosshair sedang aktif
     private bool doOnce; // Mencegah logika dijalankan berulang kali saat tidak perlu
     private const string interactableTag1 = "InteractiveObject"; // Tag untuk objek interaktif tipe 1
@@ -30,7 +33,7 @@ public class UnifiedRaycast : MonoBehaviour
     private Vector3 currentScaleVelocity = Vector3.zero; // Kecepatan transisi untuk SmoothDamp
     private float targetScale; // Target skala crosshair
     private Coroutine currentCrosshairCoroutine; // Menyimpan coroutine yang sedang berjalan
-    
+
 
     private void Update()
     {
@@ -59,6 +62,14 @@ public class UnifiedRaycast : MonoBehaviour
             {
                 HandleInteraction(hitObject.GetComponent<letter>(), hitObject);
             }
+            else if (hitObject.CompareTag("InteractiveObjectGate"))
+            {
+                Debug.Log("Ray hit Gate: " + hitObject.name);
+                var loader = hitObject.GetComponent<LevelLoader>();
+                if (loader == null) Debug.LogWarning("LevelLoader not found on " + hitObject.name);
+                HandleInteraction(loader, hitObject);
+
+            }
             else
             {
                 ResetCrosshairAndText(); // Reset jika tidak ada objek valid
@@ -81,6 +92,9 @@ public class UnifiedRaycast : MonoBehaviour
     // Tangani interaksi dengan objek
     private void HandleInteraction(MonoBehaviour component, GameObject hitObject)
     {
+
+        
+
         if (component == null) return; // Jika tidak ada komponen, keluar
 
         // Jika objek adalah surat dan player sedang bergerak, reset crosshair
@@ -103,18 +117,22 @@ public class UnifiedRaycast : MonoBehaviour
         // Tangani input untuk interaksi
         if (Input.GetKeyDown(interactionKey))
         {
+            if (component is LevelLoader gateController)
+            {
+                gateController.LoadNextLevel();
+            }
             if (component is DoorController doorController)
-            {
-                doorController.PlayAnimation();
-            }
-            else if (component is DoorController2 doorController2)
-            {
-                doorController2.PlayAnimation2();
-            }
-            else if (component is letter letterScript)
-            {
-                letterScript.openCloseLetter();
-            }
+                {
+                    doorController.PlayAnimation();
+                }
+                else if (component is DoorController2 doorController2)
+                {
+                    doorController2.PlayAnimation2();
+                }
+                else if (component is letter letterScript)
+                {
+                    letterScript.openCloseLetter();
+                }
         }
     }
     #endregion
