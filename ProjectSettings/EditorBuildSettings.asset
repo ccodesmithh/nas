@@ -6,14 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/_Project/Scenes/MainMenu.unity
     guid: 381a6bae761e74d29848101f4fb20fb1
   - enabled: 1
-    path: Assets/Scenes/Bridge.unity
+    path: Assets/_Project/Scenes/Bridge.unity
     guid: d8c4a8b22cf4a4ff9a912a626f9e64c8
   - enabled: 1
-    path: Assets/Scenes/Demo.unity
+    path: Assets/_Project/Scenes/Demo.unity
     guid: 0bce5907d797a4cd8b0660dc119867e8
+  - enabled: 1
+    path: Assets/_Project/Scenes/The Void.unity
+    guid: d07009365999e487c9d1d5c33c00987b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

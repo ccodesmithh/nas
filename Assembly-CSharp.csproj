@@ -42,86 +42,88 @@
     <UnityVersion>6000.1.14f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Users/user/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.1.2/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Users/user/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.1.3/Analyzers/Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.1.14f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.1.14f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.1.14f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/_Project/Scripts/New Folder/BasicMovement.cs" />
     <Compile Include="Assets/Add-Ons/Mirza Beig/Volumetric Fog (Lite)/Scripts/CameraControllerUI.cs" />
     <Compile Include="Assets/Add-Ons/DialogueEditor/Assets/Scripts/Condition.cs" />
     <Compile Include="Assets/Add-Ons/DialogueEditor/Assets/Scripts/UI/UIConversationButton.cs" />
+    <Compile Include="Assets/_Project/Scripts/Components/Jump.cs" />
     <Compile Include="Assets/Add-Ons/Mirza Beig/Volumetric Fog (Lite)/Scripts/CameraController.cs" />
+    <Compile Include="Assets/_Project/Scripts/FirstPersonLook.cs" />
     <Compile Include="Assets/Add-Ons/Mirza Beig/Volumetric Fog (Lite)/Scripts/FPSDisplay.cs" />
-    <Compile Include="Assets/Scripts/Components/Zoom.cs" />
     <Compile Include="Assets/Add-Ons/Mirza Beig/Volumetric Fog (Lite)/Scripts/Rotator.cs" />
-    <Compile Include="Assets/Scripts/PauseSystem.cs" />
     <Compile Include="Assets/Add-Ons/DialogueEditor/Assets/Scripts/EditableSetParamAction.cs" />
-    <Compile Include="Assets/Scripts/Components/GroundCheck.cs" />
     <Compile Include="Assets/Add-Ons/DialogueEditor/Assets/Scripts/SetParamAction.cs" />
+    <Compile Include="Assets/_Project/Scripts/Components/FirstPersonAudio.cs" />
     <Compile Include="Assets/Add-Ons/DialogueEditor/Example/ExampleInputManager.cs" />
+    <Compile Include="Assets/_Project/Scripts/PauseSystem.cs" />
     <Compile Include="Assets/Add-Ons/DialogueEditor/Assets/Scripts/Parameter.cs" />
+    <Compile Include="Assets/_Project/Scripts/letter.cs" />
     <Compile Include="Assets/Add-Ons/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" />
+    <Compile Include="Assets/_Project/Scripts/Components/Crouch.cs" />
+    <Compile Include="Assets/_Project/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/Add-Ons/DialogueEditor/Assets/Scripts/EditableConnection.cs" />
     <Compile Include="Assets/Add-Ons/DialogueEditor/Assets/Scripts/EditableNode.cs" />
-    <Compile Include="Assets/Scripts/Unified Raycast.cs" />
-    <Compile Include="Assets/Scripts/door.cs" />
     <Compile Include="Assets/Add-Ons/Mirza Beig/Volumetric Fog (Lite)/Scripts/VolumetricFogRendererFeatureLite.cs" />
+    <Compile Include="Assets/_Project/Scripts/interaction.cs" />
     <Compile Include="Assets/Add-Ons/Mirza Beig/Volumetric Fog (Lite)/Scripts/FPSTest.cs" />
     <Compile Include="Assets/Add-Ons/Mirza Beig/Volumetric Fog (Lite)/Scripts/DemoController.cs" />
-    <Compile Include="Assets/Scripts/DoorController2.cs" />
-    <Compile Include="Assets/Scripts/DoorController.cs" />
     <Compile Include="Assets/Add-Ons/DialogueEditor/Assets/Scripts/UI/ConversationManager.cs" />
     <Compile Include="Assets/Add-Ons/DialogueEditor/Assets/Scripts/EditableParameter.cs" />
+    <Compile Include="Assets/_Project/Scripts/FirstPersonMovement.cs" />
     <Compile Include="Assets/Add-Ons/DialogueEditor/Assets/Scripts/Conversation.cs" />
-    <Compile Include="Assets/Scripts/FirstPersonMovement.cs" />
+    <Compile Include="Assets/_Project/Scripts/MainMenu.cs" />
+    <Compile Include="Assets/_Project/Scripts/demoMonolouge.cs" />
     <Compile Include="Assets/Add-Ons/DialogueEditor/Assets/Scripts/NPCConversation.cs" />
+    <Compile Include="Assets/_Project/Scripts/Components/Zoom.cs" />
     <Compile Include="Assets/Add-Ons/DialogueEditor/Assets/Scripts/EditableConversation.cs" />
-    <Compile Include="Assets/Scripts/MainMenu.cs" />
     <Compile Include="Assets/Add-Ons/Mirza Beig/Volumetric Fog (Lite)/Scripts/VolumetricFogControllerLite.cs" />
-    <Compile Include="Assets/Scripts/Components/Crouch.cs" />
-    <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
-    <Compile Include="Assets/Scripts/LevelLoader.cs" />
+    <Compile Include="Assets/_Project/Scripts/Components/GroundCheck.cs" />
+    <Compile Include="Assets/_Project/Scripts/LevelLoader.cs" />
     <Compile Include="Assets/Add-Ons/DialogueEditor/Assets/Scripts/ConversationNode.cs" />
-    <Compile Include="Assets/Scripts/monolouge.cs" />
-    <Compile Include="Assets/Scripts/interaction.cs" />
-    <Compile Include="Assets/Scripts/Components/Jump.cs" />
-    <Compile Include="Assets/Scripts/FirstPersonLook.cs" />
+    <Compile Include="Assets/_Project/Scripts/control.cs" />
     <Compile Include="Assets/Add-Ons/DialogueEditor/Assets/Scripts/EditableCondition.cs" />
-    <Compile Include="Assets/Scripts/Components/FirstPersonAudio.cs" />
+    <Compile Include="Assets/_Project/Scripts/DoorController2.cs" />
     <Compile Include="Assets/Add-Ons/DialogueEditor/Assets/Scripts/NodeEventHolder.cs" />
-    <Compile Include="Assets/Scripts/letter.cs" />
+    <Compile Include="Assets/_Project/Scripts/monolouge.cs" />
+    <Compile Include="Assets/_Project/Scripts/DoorController.cs" />
+    <Compile Include="Assets/_Project/Scripts/Unified Raycast.cs" />
+    <Compile Include="Assets/_Project/Scripts/door.cs" />
     <Compile Include="Assets/Add-Ons/DialogueEditor/Assets/Scripts/Connection.cs" />
-    <Compile Include="Assets/Scripts/New Folder/BasicMovement.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
-    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader" />
-    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
-    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
-    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+    <None Include="Assets/_Project/TextMesh Pro/Shaders/TMPro.cginc" />
+    <None Include="Assets/_Project/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets/_Project/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader" />
+    <None Include="Assets/_Project/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+    <None Include="Assets/_Project/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
+    <None Include="Assets/_Project/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
     <None Include="Assets/Add-Ons/AkiDevCat/MicroAVL/ShadersLibrary/MicroAVL.hlsl" />
-    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl" />
-    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
-    <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
-    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
-    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
-    <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
-    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
-    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
-    <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
-    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
-    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets/_Project/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets/_Project/TextMesh Pro/Shaders/SDFFunctions.hlsl" />
+    <None Include="Assets/_Project/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+    <None Include="Assets/_Project/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
+    <None Include="Assets/_Project/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets/_Project/TextMesh Pro/Shaders/TMP_SDF.shader" />
+    <None Include="Assets/_Project/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets/_Project/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+    <None Include="Assets/_Project/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+    <None Include="Assets/_Project/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+    <None Include="Assets/_Project/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+    <None Include="Assets/_Project/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets/_Project/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
+    <None Include="Assets/_Project/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
     <None Include="Assets/Add-Ons/Mirza Beig/Volumetric Fog (Lite)/Shaders/Includes/CustomLighting.cginc" />
-    <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
-    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+    <None Include="Assets/_Project/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+    <None Include="Assets/_Project/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
     <None Include="Assets/Add-Ons/Mirza Beig/Volumetric Fog (Lite)/Shaders/Includes/Compositing.cginc" />
     <None Include="Assets/Add-Ons/Mirza Beig/Volumetric Fog (Lite)/Shaders/Includes/VolumetricFogLite.cginc" />
-    <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
+    <None Include="Assets/_Project/TextMesh Pro/Shaders/TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1284,6 +1286,14 @@
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
       <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
       <Private>False</Private>
@@ -1294,10 +1304,6 @@
     </Reference>
     <Reference Include="Unity.Burst.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Burst">
